@@ -27,7 +27,7 @@ def agenda():
     listatarea=[]
     listafechas=[]
     bandera=True
-    while (bandera==True):
+    while (bandera==True): #no hace falta el "==True" porque ya asignaste el valor a la bandera , cuando cambie de valor se corta el ciclo
         listatarea.append(input("ingrese una tarea: "))
         listafechas.append(input("ingrese una fecha: "))
         opcion= input("¿quiere ingresar mas tareas?")
