@@ -1,3 +1,4 @@
+#paso por acá para dejar visado los ejercicios: Excelente !
 #quiero que esta funcion salude a alguien
 def saludo(nombre):
     print("Hola mucho gusto", nombre)
