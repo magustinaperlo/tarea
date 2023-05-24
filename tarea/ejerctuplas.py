@@ -30,7 +30,22 @@ while True:
         print(meses[num-1])
     else:
         print("error")
+#sugerencia 
 
+meses = ("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre")
+
+while True:
+    num = int(input("Ingrese un número: "))
+
+    if num == 0:
+        break
+
+    if 1 <= num <= len(meses):
+        print(meses[num - 1])
+    else:
+        print("Error")
+        
+        
 #Crea una tupla con números, pide al usuario un número por teclado e indica cuantas veces se
 #repite según lo halle en la tupla que has creado.
 #RESUELVE validar los ingresos del usuario. 
@@ -58,4 +73,17 @@ tuplanum3=(1,2,3,4,5,6,7,8,9,10)
 print(tuplanum3)
 num=(int(input("Ingrese el numero del indice a saber: ")))
 print(tuplanum3[num])
+
+#sugerencia
+
+tuplanum3 = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+print(tuplanum3)
+
+num = int(input("Ingrese el número del índice a saber: "))
+
+if 0 <= num < len(tuplanum3):
+    print(tuplanum3[num])
+else:
+    print("El índice está fuera de rango")
+
 
